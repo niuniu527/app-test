@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="747eabd3-f13c-4be1-88c4-291552a8a918" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\azrj\apache-maven-3.6.1\repo" />
+        <option name="mavenHome" value="D:\azrj\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\plugins\maven\lib\maven3" />
+        <option name="userSettingsFile" value="D:\azrj\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hudjGafpqZkMtZEaXlYBVV586r" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lemon.day04" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\java20\auto_app\src\test\resources" />
+      <recent name="D:\code\java20\auto_app" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+      <command value="mvn io.qameta.allure:allure-maven:serve" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/code/java20/auto_app/testng.xml">
+    <configuration name="D:/code/java20/auto_app/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="auto_app" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="auto_app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lemon.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lemon.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.lemon.cases.LoginCase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginCase.loginFailed" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="auto_app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lemon.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lemon.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.lemon.cases.LoginCase" />
+      <option name="METHOD_NAME" value="loginFailed" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TikuCase.testFavorites" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="auto_app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lemon.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lemon.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.lemon.cases.TikuCase" />
+      <option name="METHOD_NAME" value="testFavorites" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TikuCase.testShowAnswer" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="auto_app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lemon.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lemon.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.lemon.cases.TikuCase" />
+      <option name="METHOD_NAME" value="testShowAnswer" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/code/java20/auto_app/testng.xml" />
+        <item itemvalue="TestNG.TikuCase.testFavorites" />
+        <item itemvalue="TestNG.TikuCase.testShowAnswer" />
+        <item itemvalue="TestNG.LoginCase.loginFailed" />
+        <item itemvalue="TestNG.LoginCase" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="747eabd3-f13c-4be1-88c4-291552a8a918" name="Default Changelist" comment="" />
+      <created>1600865046061</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600865046061</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="710" y="181" key="#Auto_Import" timestamp="1602903657248">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="710" y="181" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1602903657248" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1602769901661">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1602769901661" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1603199978710">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1603199978710" />
+    <state x="573" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602733347151">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="573" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1602733347151" />
+    <state width="1493" height="237" key="GridCell.Tab.0.bottom" timestamp="1603202573814">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603202573814" />
+    <state width="1877" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602905558145" />
+    <state width="1493" height="237" key="GridCell.Tab.0.center" timestamp="1603202573813">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603202573813" />
+    <state width="1877" height="308" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602905558145" />
+    <state width="1493" height="237" key="GridCell.Tab.0.left" timestamp="1603202573813">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603202573813" />
+    <state width="1877" height="308" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602905558145" />
+    <state width="1493" height="237" key="GridCell.Tab.0.right" timestamp="1603202573813">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603202573813" />
+    <state width="1877" height="308" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602905558145" />
+    <state width="1493" height="237" key="GridCell.Tab.1.bottom" timestamp="1603202573814">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603202573814" />
+    <state width="1493" height="237" key="GridCell.Tab.1.center" timestamp="1603202573814">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603202573814" />
+    <state width="1493" height="237" key="GridCell.Tab.1.left" timestamp="1603202573814">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603202573814" />
+    <state width="1493" height="237" key="GridCell.Tab.1.right" timestamp="1603202573814">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603202573814" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1600868225248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1600868225248" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1603200753593">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1603200753593" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602337124851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602337124851" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/demo/day01/SampleTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

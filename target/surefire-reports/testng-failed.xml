@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [futureloan]">
+  <listeners>
+    <listener class-name="com.lemon.listener.AllureScreenShotListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="登录测试(failed)">
+    <classes>
+      <class name="com.lemon.cases.LoginCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="loginFailed02" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.lemon.cases.LoginCase -->
+    </classes>
+  </test> <!-- 登录测试(failed) -->
+</suite> <!-- Failed suite [futureloan] -->

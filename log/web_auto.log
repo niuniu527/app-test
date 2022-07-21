@@ -1,0 +1,59 @@
+2020-10-20 21:30:56 INFO  BaseCase:27 - ====================打开app==========================
+2020-10-20 21:31:08 INFO  BaseCase:27 - ====================打开app==========================
+2020-10-20 21:31:19 INFO  BasePage:52 - 元素定位信息：By.xpath: //*[@content-desc="我的柠檬"]
+2020-10-20 21:31:22 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/fragment_my_lemon_avatar_title
+2020-10-20 21:31:22 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/et_mobile
+2020-10-20 21:31:24 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/et_password
+2020-10-20 21:31:25 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/btn_login
+2020-10-20 21:31:25 INFO  BasePage:62 - 元素定位信息：By.xpath: //*[contains(@text,'错误的账号信息')]
+2020-10-20 21:31:28 INFO  BasePage:52 - 元素定位信息：By.xpath: //*[@content-desc="我的柠檬"]
+2020-10-20 21:31:28 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/fragment_my_lemon_avatar_title
+2020-10-20 21:31:29 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/et_mobile
+2020-10-20 21:31:30 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/et_password
+2020-10-20 21:31:32 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/btn_login
+2020-10-20 21:31:32 INFO  BasePage:62 - 元素定位信息：By.xpath: //*[contains(@text,'手机号码或密码不能为空1')]
+2020-10-20 21:31:43 INFO  BasePage:52 - 元素定位信息：By.xpath: //*[@content-desc="我的柠檬"]
+2020-10-20 21:31:44 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/fragment_my_lemon_avatar_title
+2020-10-20 21:31:44 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/et_mobile
+2020-10-20 21:31:45 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/et_password
+2020-10-20 21:31:47 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/btn_login
+2020-10-20 21:31:47 INFO  BasePage:62 - 元素定位信息：By.xpath: //*[contains(@text,'手机号码格式不正确')]
+2020-10-20 21:31:48 INFO  BasePage:52 - 元素定位信息：By.xpath: //*[@content-desc="我的柠檬"]
+2020-10-20 21:31:49 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/fragment_my_lemon_avatar_title
+2020-10-20 21:31:49 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/et_mobile
+2020-10-20 21:31:51 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/et_password
+2020-10-20 21:31:52 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/btn_login
+2020-10-20 21:31:52 INFO  BasePage:62 - 元素定位信息：By.xpath: //*[contains(@text,'手机号码或密码不能为空')]
+2020-10-20 21:31:53 INFO  BasePage:52 - 元素定位信息：By.xpath: //*[@content-desc="我的柠檬"]
+2020-10-20 21:31:54 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/fragment_my_lemon_avatar_title
+2020-10-20 21:31:55 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/et_mobile
+2020-10-20 21:31:56 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/et_password
+2020-10-20 21:31:57 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/btn_login
+2020-10-20 21:31:58 INFO  BasePage:62 - 元素定位信息：By.xpath: //*[contains(@text,'手机号码或密码不能为空')]
+2020-10-20 21:31:59 INFO  BasePage:52 - 元素定位信息：By.xpath: //*[@content-desc="我的柠檬"]
+2020-10-20 21:31:59 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/fragment_my_lemon_avatar_title
+2020-10-20 21:32:00 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/et_mobile
+2020-10-20 21:32:01 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/et_password
+2020-10-20 21:32:02 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/btn_login
+2020-10-20 21:32:03 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/fragment_my_lemon_avatar_title
+2020-10-20 21:32:05 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/fragment_my_lemon_collection_count
+2020-10-20 21:32:06 INFO  BasePage:52 - 元素定位信息：By.xpath: //*[@resource-id='com.lemon.lemonban:id/smallLabel' and @text='题库']
+2020-10-20 21:32:06 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/fragment_category_cover
+2020-10-20 21:32:07 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/first_level
+2020-10-20 21:32:07 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/suit_subject_arrow
+2020-10-20 21:32:08 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/action_favourite
+2020-10-20 21:32:09 INFO  BasePage:62 - 元素定位信息：By.xpath: //*[contains(@text,'收藏成功')]
+2020-10-20 21:32:12 INFO  BasePage:52 - 元素定位信息：By.xpath: //*[@content-desc="我的柠檬"]
+2020-10-20 21:32:12 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/fragment_my_lemon_collection_count
+2020-10-20 21:32:13 INFO  BasePage:52 - 元素定位信息：By.xpath: //*[@resource-id='com.lemon.lemonban:id/smallLabel' and @text='题库']
+2020-10-20 21:32:13 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/fragment_category_cover
+2020-10-20 21:32:14 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/third_level
+2020-10-20 21:32:15 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/suit_subject_arrow
+2020-10-20 21:32:16 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/switch_button
+2020-10-20 21:32:16 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/tvBody
+2020-10-20 21:32:19 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/switch_button
+2020-10-20 21:32:19 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/tvBody
+2020-10-20 21:32:20 INFO  BasePage:52 - 元素定位信息：By.id: com.lemon.lemonban:id/switch_button
+2020-10-20 21:32:21 INFO  BasePage:42 - 元素定位信息：By.id: com.lemon.lemonban:id/tvBody
+2020-10-20 21:32:21 INFO  BaseCase:39 - ====================关闭app==========================
+2020-10-20 21:32:26 INFO  BaseCase:39 - ====================关闭app==========================

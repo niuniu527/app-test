@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-futureloan">
+              <span class="suite-name border-failed">futureloan</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-futureloan">
+                    <span>D:\code\java20\auto_app\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-futureloan">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-futureloan">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-futureloan">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-futureloan">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-futureloan">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-futureloan">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-futureloan" class="hide-methods failed suite-futureloan"> (hide)</a> <!-- hide-methods failed suite-futureloan -->
+                      <a href="#" panel-name="suite-futureloan" class="show-methods failed suite-futureloan"> (show)</a> <!-- show-methods failed suite-futureloan -->
+                    </span>
+                    <div class="method-list-content failed suite-futureloan">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-futureloan" title="com.lemon.cases.LoginCase" hash-for-method="loginFailed02(, , 手机号码或密码不能为空1)">loginFailed02(, , 手机号码或密码不能为空1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-futureloan -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-futureloan" class="hide-methods passed suite-futureloan"> (hide)</a> <!-- hide-methods passed suite-futureloan -->
+                      <a href="#" panel-name="suite-futureloan" class="show-methods passed suite-futureloan"> (show)</a> <!-- show-methods passed suite-futureloan -->
+                    </span>
+                    <div class="method-list-content passed suite-futureloan">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-futureloan" title="com.lemon.cases.LoginCase" hash-for-method="loginFailed">loginFailed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-futureloan" title="com.lemon.cases.LoginCase" hash-for-method="loginFailed02(13213123, 123123, 手机号码格式不正确)">loginFailed02(13213123, 123123, 手机号码格式不正确)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-futureloan" title="com.lemon.cases.LoginCase" hash-for-method="loginFailed02(, 123123123, 手机号码或密码不能为空)">loginFailed02(, 123123123, 手机号码或密码不能为空)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-futureloan" title="com.lemon.cases.LoginCase" hash-for-method="loginFailed02(13323234545, , 手机号码或密码不能为空)">loginFailed02(13323234545, , 手机号码或密码不能为空)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-futureloan" title="com.lemon.cases.LoginCase" hash-for-method="loginSuccess">loginSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-futureloan" title="com.lemon.cases.TikuCase" hash-for-method="testFavorites">testFavorites</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-futureloan" title="com.lemon.cases.TikuCase" hash-for-method="testShowAnswer">testShowAnswer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-futureloan -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-futureloan" class="panel futureloan">
+          <div class="suite-futureloan-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.lemon.cases.LoginCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFailed02(, , 手机号码或密码不能为空1)">
+                  </a> <!-- loginFailed02(, , 手机号码或密码不能为空1) -->
+                  <span class="method-name">loginFailed02</span>
+                  <span class="parameters">(, , 手机号码或密码不能为空1)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[contains(@text,&apos;手机号码或密码不能为空1&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.lemon.common.BasePage.waitElementPresence(BasePage.java:64)
+	at com.lemon.common.BasePage.getToastText(BasePage.java:86)
+	at com.lemon.page.LoginPage.loginFailedFLow(LoginPage.java:74)
+	at com.lemon.cases.LoginCase.loginFailed02(LoginCase.java:66)
+	at com.lemon.listener.AllureScreenShotListener.run(AllureScreenShotListener.java:28)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-G2P2MI3J&apos;, ip: &apos;192.168.199.193&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.lemon.lemonban.activity..., appPackage: com.lemon.lemonban, databaseEnabled: false, desired: {appActivity: com.lemon.lemonban.activity..., appPackage: com.lemon.lemonban, deviceName: 127.0.0.1:62001, platformName: android}, deviceApiLevel: 25, deviceManufacturer: OPPO, deviceModel: OPPO R11 Plus, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 7.1.2, statBarHeight: 48, takesScreenshot: true, viewportRect: {height: 1552, left: 0, top: 48, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 3afb7b9e-e2bc-43c4-8b3b-6e39712c6e65
+*** Element info: {Using=xpath, value=//*[contains(@text,&apos;手机号码或密码不能为空1&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 39 more
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-futureloan-class-failed -->
+          <div class="suite-futureloan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.lemon.cases.TikuCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFavorites">
+                  </a> <!-- testFavorites -->
+                  <span class="method-name">testFavorites</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShowAnswer">
+                  </a> <!-- testShowAnswer -->
+                  <span class="method-name">testShowAnswer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-futureloan-class-passed -->
+          <div class="suite-futureloan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.lemon.cases.LoginCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFailed">
+                  </a> <!-- loginFailed -->
+                  <span class="method-name">loginFailed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFailed02(13213123, 123123, 手机号码格式不正确)">
+                  </a> <!-- loginFailed02(13213123, 123123, 手机号码格式不正确) -->
+                  <span class="method-name">loginFailed02</span>
+                  <span class="parameters">(13213123, 123123, 手机号码格式不正确)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFailed02(, 123123123, 手机号码或密码不能为空)">
+                  </a> <!-- loginFailed02(, 123123123, 手机号码或密码不能为空) -->
+                  <span class="method-name">loginFailed02</span>
+                  <span class="parameters">(, 123123123, 手机号码或密码不能为空)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFailed02(13323234545, , 手机号码或密码不能为空)">
+                  </a> <!-- loginFailed02(13323234545, , 手机号码或密码不能为空) -->
+                  <span class="method-name">loginFailed02</span>
+                  <span class="parameters">(13323234545, , 手机号码或密码不能为空)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSuccess">
+                  </a> <!-- loginSuccess -->
+                  <span class="method-name">loginSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-futureloan-class-passed -->
+        </div> <!-- panel futureloan -->
+        <div panel-name="test-xml-futureloan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\code\java20\auto_app\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;futureloan&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.lemon.listener.AllureScreenShotListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;登录测试&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.lemon.cases.LoginCase&quot;/&gt;
+      &lt;class name=&quot;com.lemon.cases.TikuCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 登录测试 --&gt;
+&lt;/suite&gt; &lt;!-- futureloan --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-futureloan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for futureloan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">登录测试 (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-futureloan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for futureloan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-futureloan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for futureloan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_futureloan');
+function tableData_futureloan() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginFailed02')
+data.setCell(0, 2, 'com.lemon.cases.LoginCase')
+data.setCell(0, 3, 15105);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginFailed')
+data.setCell(1, 2, 'com.lemon.cases.LoginCase')
+data.setCell(1, 3, 8725);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testShowAnswer')
+data.setCell(2, 2, 'com.lemon.cases.TikuCase')
+data.setCell(2, 3, 8544);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testFavorites')
+data.setCell(3, 2, 'com.lemon.cases.TikuCase')
+data.setCell(3, 3, 7374);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginSuccess')
+data.setCell(4, 2, 'com.lemon.cases.LoginCase')
+data.setCell(4, 3, 6864);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginFailed02')
+data.setCell(5, 2, 'com.lemon.cases.LoginCase')
+data.setCell(5, 3, 5282);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginFailed02')
+data.setCell(6, 2, 'com.lemon.cases.LoginCase')
+data.setCell(6, 3, 5201);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginFailed02')
+data.setCell(7, 2, 'com.lemon.cases.LoginCase')
+data.setCell(7, 3, 4969);
+window.suiteTableData['futureloan']= { tableData: data, tableDiv: 'times-div-futureloan'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-futureloan">
+              </div> <!-- times-div-futureloan -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-futureloan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for futureloan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-futureloan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-futureloan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lemon.cases.LoginCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lemon.cases.TikuCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11822 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lemon.cases.LoginCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginFailed</span>
+                <span class="method-start">22692 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginFailed02(, , 手机号码或密码不能为空1)</span>
+                <span class="method-start">31632 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginFailed02(13213123, 123123, 手机号码格式不正确)</span>
+                <span class="method-start">46762 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginFailed02(13323234545, , 手机号码或密码不能为空)</span>
+                <span class="method-start">51732 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginFailed02(, 123123123, 手机号码或密码不能为空)</span>
+                <span class="method-start">56936 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginSuccess</span>
+                <span class="method-start">62220 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lemon.cases.TikuCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFavorites</span>
+                <span class="method-start">69088 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testShowAnswer</span>
+                <span class="method-start">76464 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lemon.cases.LoginCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">85009 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lemon.cases.TikuCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89214 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
